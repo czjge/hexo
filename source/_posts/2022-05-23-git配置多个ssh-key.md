@@ -26,12 +26,12 @@ tags:
    ```
 3. 添加 `ssh key`
    ``` bash
-   ssh-agent bash
-   ssh-add ~/.ssh/gitee_czjge_rsa
+   $ ssh-agent bash
+   $ ssh-add ~/.ssh/gitee_czjge_rsa
    ```
 4. 测试
    ``` bash
-   ssh -T git@gitee_czjge
+   $ ssh -T git@gitee_czjge
    ```
 5. `gitee` 设置里添加公钥
    
