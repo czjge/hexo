@@ -5,7 +5,7 @@ categories:
 - golang
 tags:
 - golang
-- runtime
+- intro
 ---
 
 `Go` 编译器产生的可执行代码实际上是运行在 `Go` 的 `runtime` 当中。

@@ -5,6 +5,7 @@ categories:
 - git
 tags:
 - git
+- detail
 ---
 
 合并分支代码是 `git` 日常使用中的高频操作
@@ -25,9 +26,9 @@ tags:
 
 - `fast-forward` 这是默认的方式
 
-``` bash
-$ git checkout master
-$ git merge dev
+```bash
+git checkout master
+git merge dev
 ```
 
 如果源分支和目标分支没有分叉
@@ -40,9 +41,9 @@ git会简单地把源分支的HEAD指针移动到目标分支的最新提交点�
 
 - `no-ff` 
 
-``` bash
-$ git checkout master
-$ git merge dev --no--ff
+```bash
+git checkout master
+git merge dev --no--ff
 ```
 
 `master` 分支会生成新的一次 `commit` 
@@ -51,9 +52,9 @@ $ git merge dev --no--ff
 
 - `squash` 和 `no-ff` 非常类似，区别是不会保留对合入分支的引用
 
-``` bash
-$ git checkout master
-$ git merge dev --squash 
+```bash
+git checkout master
+git merge dev --squash 
 ```
 
 ![alt 图标](https://img.czjge.cn/blog/202205241549.png)
@@ -70,9 +71,9 @@ $ git merge dev --squash
 
 此时，我们执行变基操作：
 
-``` bash
-$ git checkout dev
-$ git rebase master
+```bash
+git checkout dev
+git rebase master
 ```
 
 ![alt 图标](https://img.czjge.cn/blog/202205241623.png)
