@@ -13,5 +13,10 @@ hexo server
 hexo new 这是文章标题
 ```
 
+#### 重新渲染
+```shell
+hexo g
+```
+
 #### 参考
 https://hexo.io/zh-cn/
