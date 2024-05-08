@@ -17,7 +17,7 @@ tags:
 composer require laravel/passport
 ```
 
-![alt 图标](https://img.czjge.cn/blog/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240126154541.png)
+![alt 图标](http://img.czjge.cn/blog/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240126154541.png)
 
 ### 排查
 
@@ -42,5 +42,5 @@ composer require psr/http-message:^1.1
 
 然后继续安装 `passport`，成功：
 
-![alt 图标](https://img.czjge.cn/blog/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240126160011.png)
+![alt 图标](http://img.czjge.cn/blog/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240126160011.png)
 
