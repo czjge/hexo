@@ -33,11 +33,11 @@ git merge dev
 
 如果源分支和目标分支没有分叉
 
-![alt 图标](http://img.czjge.cn/blog/202205241533.png)
+![alt 图标](https://img.czjge.cn/blog/202205241533.png)
 
 git会简单地把源分支的HEAD指针移动到目标分支的最新提交点上
 
-![alt 图标](http://img.czjge.cn/blog/202205241538.png)
+![alt 图标](https://img.czjge.cn/blog/202205241538.png)
 
 - `no-ff` 
 
@@ -48,7 +48,7 @@ git merge dev --no--ff
 
 `master` 分支会生成新的一次 `commit` 
 
-![alt 图标](http://img.czjge.cn/blog/202205241547.png)
+![alt 图标](https://img.czjge.cn/blog/202205241547.png)
 
 - `squash` 和 `no-ff` 非常类似，区别是不会保留对合入分支的引用
 
@@ -57,7 +57,7 @@ git checkout master
 git merge dev --squash 
 ```
 
-![alt 图标](http://img.czjge.cn/blog/202205241549.png)
+![alt 图标](https://img.czjge.cn/blog/202205241549.png)
 
 ### git rebase
 
@@ -67,7 +67,7 @@ git merge dev --squash
 
 随后 `master` 分支提交到 `M` ，`dev` 分支经过 `C` 和 `D` 提交
 
-![alt 图标](http://img.czjge.cn/blog/202205241601.png)
+![alt 图标](https://img.czjge.cn/blog/202205241601.png)
 
 此时，我们执行变基操作：
 
@@ -76,7 +76,7 @@ git checkout dev
 git rebase master
 ```
 
-![alt 图标](http://img.czjge.cn/blog/202205241623.png)
+![alt 图标](https://img.czjge.cn/blog/202205241623.png)
 
 可以看到：`git` 从 `B` 提交后开始提取 `dev` 分支的提交 `C` 和 `D` 
 
