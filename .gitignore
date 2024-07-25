@@ -3,3 +3,7 @@ node_modules/
 public/
 .idea/
 .well-known/
+.htaccess
+.user.ini
+404.html
+index.html
